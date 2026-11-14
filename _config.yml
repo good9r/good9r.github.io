@@ -1,0 +1,19 @@
+title: 我的每日日記
+description: 每天記錄一點點
+lang: zh-Hant
+url: "https://good9r.github.io"
+timezone: Asia/Taipei
+
+theme: minima
+minima:
+  skin: auto
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+show_excerpts: true
+future: false
+github_username: good9r
